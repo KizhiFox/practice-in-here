@@ -12,9 +12,8 @@ def get_data(codes):
     r_rf - Вся Россия
     r_szfo - Северо-Западный ФО
     r_cfo - Москва и Тверь
-    :return: list, список магазинов
+    :return list: список магазинов
     """
-
     response = requests.get('https://api.petrovich.ru/api/pet/v002/base/getSubdivisionsForMap')
     data = json.loads(response.content)
     result = []

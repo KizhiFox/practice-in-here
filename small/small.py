@@ -49,9 +49,10 @@ def to_geojson(points, filename):
     }
     for point in points:
         output['features'].append({
+            'type': 'Feature',
             'geometry': {
                 'type': 'Point',
-                'coordinates': [point['longitude'], point['latitude']]
+                'coordinates': [float(point['longitude']), float(point['latitude'])]
             },
             'properties': {
                 'name': point['name'],

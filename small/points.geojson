@@ -1,0 +1,1321 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "77.024675",
+                    "43.317525"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №46",
+                "address": "г. Алматы, Талгарский р-н, с.Панфилово, ул.Кульджинская, уч.1А",
+                "opening_hours": "08.30 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.880815",
+                    "43.196917"
+                ]
+            },
+            "properties": {
+                "name": "Магазин у дома №14",
+                "address": "г. Алматы, ул. Мустафина, 9",
+                "opening_hours": "9.00 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.937062",
+                    "43.242731"
+                ]
+            },
+            "properties": {
+                "name": "Магазин напитков №02",
+                "address": "г. Алматы, ул. Наурызбай батыра, 115",
+                "opening_hours": "9.00 - 21.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "77.005736",
+                    "43.302056"
+                ]
+            },
+            "properties": {
+                "name": "Дискаунтер №41",
+                "address": "г. Алматы, мкр. Кайрат, 182, ТД \"Көк-төбе\"",
+                "opening_hours": "09.00 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.854196",
+                    "43.215512"
+                ]
+            },
+            "properties": {
+                "name": "Дискаунтер №17",
+                "address": "г. Алматы, мкр. Мамыр 4, 197А",
+                "opening_hours": "9.00 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.892384",
+                    "43.227462"
+                ]
+            },
+            "properties": {
+                "name": "Головной офис",
+                "address": "г. Алматы, ул Катаева 189",
+                "opening_hours": "9.00 - 18.00 (Пн - Пт)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.902986",
+                    "43.244402"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №22",
+                "address": "г. Алматы, ул. Ауэзова, 65",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.902514",
+                    "43.213087"
+                ]
+            },
+            "properties": {
+                "name": "Магазин у дома №19",
+                "address": "г. Алматы, ул. Жарокова, 281",
+                "opening_hours": "9.00 - 23.00 (1 этаж),  9.00 - 20.00 (2 этаж)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.916979",
+                    "43.320741"
+                ]
+            },
+            "properties": {
+                "name": "Дискаунтер №34",
+                "address": "г. Алматы, мкр. Айнабулак, 98Б",
+                "opening_hours": "8.30 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.904169",
+                    "43.193509"
+                ]
+            },
+            "properties": {
+                "name": "Магазин у дома №10",
+                "address": "г. Алматы, мкр. Казахфильм, ул. Исиналиева, 13",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.949514",
+                    "43.265028"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №49",
+                "address": "г. Алматы, ул. Валиханова, 33",
+                "opening_hours": "8.30 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.921552",
+                    "43.255595"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №45",
+                "address": "г. Алматы, ул. Шарипова, 63",
+                "opening_hours": "08.30 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "43.255315",
+                    "76.885836"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №43",
+                "address": "г. Алматы, ул. Дуйсенова, д. 25, п.203",
+                "opening_hours": "9.00 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.955305",
+                    "43.253062"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №50",
+                "address": "г. Алматы, ул. Достык, 29",
+                "opening_hours": "8.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.953491",
+                    "43.335941"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №44",
+                "address": "г. Алматы, ул. Рихарда Зорге 18",
+                "opening_hours": "10.00 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.981925",
+                    "43.338779"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №42",
+                "address": "г. Алматы, ул. Майлина, 79 (ТД \"Меркур\")",
+                "opening_hours": "09.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.836673",
+                    "43.244474"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №40",
+                "address": "г. Алматы, пр. Райымбека, 514а, ТРЦ \"Asia Park\"",
+                "opening_hours": "09.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.936913",
+                    "43.254805"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №38",
+                "address": "Алматы, ул. Толе би, 71, ТД \"Silk Way City\"",
+                "opening_hours": "8.00 - 24.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.908876",
+                    "43.325969"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №36",
+                "address": "г. Алматы, ул. Северное кольцо, 99/4",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.956225",
+                    "43.246019"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №35",
+                "address": "г. Алматы, пр. Достык, 71 угол ул. Курмангазы",
+                "opening_hours": "8.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.902563",
+                    "43.23718"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №32",
+                "address": "г. Алматы, ул. Мынбаева, 44/126",
+                "opening_hours": "8.30 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.897443",
+                    "43.244959"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №31",
+                "address": "г. Алматы, ул. Жамбыла, 205",
+                "opening_hours": "8.30 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.889614",
+                    "43.235671"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №28",
+                "address": "г. Алматы, ул. Розыбакиева, 75",
+                "opening_hours": "8.30 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.954888",
+                    "43.261577"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №26",
+                "address": "г. Алматы, ул. Жибек Жолы, 50/2/39",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.954062",
+                    "43.232958"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №25",
+                "address": "г. Алматы, мкр. Самал-2, ул. Мендикулова, 98",
+                "opening_hours": "8.30 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.920707",
+                    "43.245013"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №23",
+                "address": "г. Алматы, ул. Шевченко, 123",
+                "opening_hours": "8.30 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.835008",
+                    "43.229742"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №09",
+                "address": "г. Алматы, мкр. Аксай-4, 22",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.899462",
+                    "43.252103"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №47",
+                "address": "г.Алматы, ул. Толе-би, 187",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.429567",
+                    "51.165239"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №20",
+                "address": "г. Нур-Султан, ул. Кенесары, 38",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.370353",
+                    "51.148971"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №17",
+                "address": "г. Нур-Султан, ул Айтматова, 44",
+                "opening_hours": "9.00 - 24.00"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.487598",
+                    "51.157744"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №05",
+                "address": "г. Нур-Султан, ул. Абылай хана, 27/3",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.512121",
+                    "51.132776"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №19",
+                "address": "г.Нур-Султан, ул.Масаты, уч.24",
+                "opening_hours": "9.00 - 23.00(Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.449941",
+                    "51.096485"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №21",
+                "address": "г. Нур-Султан,р-н Есиль, ул.38, д. 13, ЖК \"Арнау\"",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.407675",
+                    "51.185596"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №22",
+                "address": "Нур-Султан, ул. Женис, 67",
+                "opening_hours": "9.00 - 23.00"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.499833",
+                    "51.152219"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №23",
+                "address": "г. Нур-Султан, мкр. Аль-Фараби, ул. Мусрепова, зд. 3",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.464117",
+                    "51.193809"
+                ]
+            },
+            "properties": {
+                "name": "Оптомаркет №07",
+                "address": "г. Нур-Султан, шоссе Алаш, 13",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.389460",
+                    "51.168553"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №16",
+                "address": "г. Нур-Султан, ул. Шаймердена Косшыгулулы, д.9, ТЦ \"Северный\"",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.423945",
+                    "51.146030"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №15",
+                "address": "г. Нур-Султан, пр. Кабанбай Батыра, д.6/2, ТЦ \"Каскад\"",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.419272",
+                    "51.175968"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №12",
+                "address": "г. Нур-Султан, ул. Бейбітшілік, 30",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.377451",
+                    "51.179681"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №10",
+                "address": "г. Нур-Султан, пр. Нургисы Тлендиева, 15, ТЦ \"Рахмет\"",
+                "opening_hours": "9.00 - 23.00(Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.426318",
+                    "51.171852"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №09",
+                "address": "г. Нур-Султан, ул. Сейфуллина, 33, ВП-2",
+                "opening_hours": "8.30 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.402201",
+                    "51.161663"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №04",
+                "address": "г. Нур-Султан, ул. Кенесары, 4, ЖК \"Эмират\"",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.439984",
+                    "51.169336"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №03",
+                "address": "г. Нур-Султан, ул. Абая, 48, ТД \"Жаннур\"",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.404349",
+                    "51.174479"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №02",
+                "address": "г. Нур-Султан, пр. Богенбай батыра, 26",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.512405",
+                    "51.145207"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №01",
+                "address": "г. Нур-Султан, ул. Субханбердина, 2/1",
+                "opening_hours": "9.00 - 24.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.472964",
+                    "51.160156"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №06",
+                "address": "г. Нур-Султан, ул. Абылай хана, 5, блок 1, ВП-2",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.391786",
+                    "51.096545"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №11",
+                "address": "г. Нур-Султан, пр. Туран, 65",
+                "opening_hours": "9.00 - 24.00(Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.434313",
+                    "51.124649"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №18",
+                "address": "г. Нур-Султан,р-н Есиль, ул.Достык, 18",
+                "opening_hours": "8.00 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.412861",
+                    "51.128275"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №14",
+                "address": "г. Нур-Султан, пр. Кабанбай-батыра, 21, ТРЦ \"Asia Park\"",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.929031",
+                    "52.048380"
+                ]
+            },
+            "properties": {
+                "name": "Дискаунтер №08",
+                "address": "г. Аксу, ул. Камзина, 61",
+                "opening_hours": "9.00 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.918275",
+                    "52.037815"
+                ]
+            },
+            "properties": {
+                "name": "Дискаунтер №07",
+                "address": "г. Аксу, ул. Ауэзова, 10",
+                "opening_hours": "9.00 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "78.349041",
+                    "45.014988"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №03",
+                "address": "г. Талдыкорган, мкр. Жетысу, 32",
+                "opening_hours": "9.00 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "78.397013",
+                    "45.017501"
+                ]
+            },
+            "properties": {
+                "name": "Оптомаркет №05",
+                "address": "г. Талдыкорган, мкр. Каратал, 4",
+                "opening_hours": "9.00 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "78.359695",
+                    "45.000945"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №06",
+                "address": "г. Талдыкорган, мкр. Жастар, 66А",
+                "opening_hours": "9.00 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "78.383250",
+                    "45.015157"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №02",
+                "address": "г. Талдыкорган, ул. Абая, 274",
+                "opening_hours": "9.00 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.681423",
+                    "43.217509"
+                ]
+            },
+            "properties": {
+                "name": "Дискаунтер №39",
+                "address": "с. Алмалыбак, ул. Ерлепесова, 40",
+                "opening_hours": "8.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "77.049439",
+                    "43.849637"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №48",
+                "address": "г.Капчагай, ул.Алматинская 6/1, 6/2",
+                "opening_hours": "08:30 - 23:00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "77.047361",
+                    "43.863364"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №55",
+                "address": "г. Капчагай, ул. Индустриальная, 10/5",
+                "opening_hours": "8.30 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.157063",
+                    "49.796568"
+                ]
+            },
+            "properties": {
+                "name": "Дискаунтер №04",
+                "address": "г. Караганда, ул. Тәттімбет, 10/5",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.132951",
+                    "49.774439"
+                ]
+            },
+            "properties": {
+                "name": "Дискаунтер №02",
+                "address": "г. Караганда, ул. Язева, 17, н.п. 2",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.084543",
+                    "49.815360"
+                ]
+            },
+            "properties": {
+                "name": "Магазин напитков №03",
+                "address": "г. Караганда, р-н им. Казыбек би, ул. Ленина, 9",
+                "opening_hours": "9.00 - 21.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.112499",
+                    "49.801992"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №05",
+                "address": "г. Караганда, р-н Казыбек би, ул,Складская, 2А",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "69.384791",
+                    "53.283738"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №02",
+                "address": "г. Кокшетау, ул. Ауельбекова, 115",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "69.411669",
+                    "53.280057"
+                ]
+            },
+            "properties": {
+                "name": "Оптомаркет №01",
+                "address": "г. Кокшетау, ул. Капцевича, 228/1 угол ул. Мира",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "69.396509",
+                    "53.306228"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №03",
+                "address": "г. Кокшетау, ул. Сулейменова д. 23/2",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "63.638292",
+                    "53.212217"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №01",
+                "address": "г. Костанай, пр. Аль-Фараби, д.48",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "65.512609",
+                    "44.841965"
+                ]
+            },
+            "properties": {
+                "name": "Оптомаркет №07",
+                "address": "г. Кызылорда, ул. Айтеке би, 52",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "65.528552",
+                    "44.791552"
+                ]
+            },
+            "properties": {
+                "name": "Оптомаркет №02",
+                "address": "г. Кызылорда, ул. Жибек жолы, 20",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "65.495576",
+                    "44.848360"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №08",
+                "address": "г. Кызылорда, ул. Толыбекова, 14",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "65.527710",
+                    "44.824188"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №04",
+                "address": "г. Кызылорда, ул. А.Бокейхана, 62А",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "65.470637",
+                    "44.846780"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №01",
+                "address": "г. Кызылорда, мкр. Мерей, ул. Журба, 65",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.944006",
+                    "52.287322"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №06",
+                "address": "г. Павлодар, ул. Ак.Сатпаева, 47",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.994172",
+                    "52.271285"
+                ]
+            },
+            "properties": {
+                "name": "Оптомаркет №02",
+                "address": "г. Павлодар, ул. Циолковского, 33/6",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.968626",
+                    "52.286104"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №05",
+                "address": "г. Павлодар, ул. Кутузова, 41, ТД \"Артур\"",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.928041",
+                    "52.297505"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №04",
+                "address": "г. Павлодар, ул.Торайгырова, 1/3",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.943934",
+                    "52.263266"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №03",
+                "address": "г. Павлодар, ул. Ак.Сатпаева, 316/1",
+                "opening_hours": "9.00 - 24.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.975130",
+                    "52.275324"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №01",
+                "address": "г. Павлодар, ул. Катаева, 51",
+                "opening_hours": "9.00 - 24.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.944177",
+                    "52.280879"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №11",
+                "address": "г. Павлодар, ул. Маргулана, д.113",
+                "opening_hours": "9.00 - 24.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.954071",
+                    "52.249593"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №10",
+                "address": "г. Павлодар, ул. Бекхожина 3/2",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.945666",
+                    "52.271160"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №09",
+                "address": "г. Павлодар, ул. М. Горького, 29/4",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "80.252433",
+                    "50.417415"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №4",
+                "address": "г. Семей, ул. Шугаева, 28.",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "80.262764",
+                    "50.417157"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №3",
+                "address": "ул. Б.Момышулы, д. 34 А",
+                "opening_hours": "9.00 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "80.228029",
+                    "50.395272"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №02",
+                "address": "г. Семей, пр. Ауэзова, 5",
+                "opening_hours": "9.00 - 22.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.898990",
+                    "52.357904"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №08",
+                "address": "г. Степногорск, 6 мкр, 2, ТД \"Сибирь\"",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "77.234439",
+                    "43.303919"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №24",
+                "address": "г. Талгар, ул. Кунаева, 84, ТЦ \"Альпина\"",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.325885",
+                    "42.900445"
+                ]
+            },
+            "properties": {
+                "name": "Оптомаркет №01",
+                "address": "г. Тараз, ул. Тауке-хана, 1Д",
+                "opening_hours": "8.30 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.381741",
+                    "42.872118"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №06",
+                "address": "г. Тараз, ул. Байзак батыра, участок 194 Д",
+                "opening_hours": "8.30 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.395445",
+                    "42.870639"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №05",
+                "address": "г. Тараз, пр. Абая, 288",
+                "opening_hours": "8.30 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "71.360327",
+                    "42.894525"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №04",
+                "address": "г. Тараз, пр. Жамбыла, здание 200А",
+                "opening_hours": "8.30 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "76.914071",
+                    "43.409944"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №37",
+                "address": "Ащибулакский с.о., с.М.Туймебаев,ул.Аптечная, 2Б",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "75.335015",
+                    "51.723969"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №04",
+                "address": "г. Экибастуз, ул. Момышулы, 54",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "75.325200",
+                    "51.727393"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №03",
+                "address": "г. Экибастуз, ул. Mәшһүp Жүcin, 88",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "75.327500",
+                    "51.725873"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №02",
+                "address": "г. Экибастуз, ул. Mәшһүp Жүcin, 52В (литер А)",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "75.313099",
+                    "51.726553"
+                ]
+            },
+            "properties": {
+                "name": "Супермаркет №01",
+                "address": "г. Экибастуз, ул. Ауэзова, 57/2",
+                "opening_hours": "9.00 - 23.00 (Пн - Вс)"
+            }
+        }
+    ]
+}

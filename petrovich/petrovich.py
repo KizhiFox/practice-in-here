@@ -57,4 +57,4 @@ def to_geojson(points, filename):
 
 if __name__ == '__main__':
     data = get_data(['r_spb', 'r_rf', 'r_szfo', 'r_cfo'])
-    to_geojson(data, 'petrovich/points.geojson')
+    to_geojson(data, 'points.geojson')

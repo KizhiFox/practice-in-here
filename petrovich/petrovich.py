@@ -1,4 +1,3 @@
-import codecs
 import json
 import requests
 
@@ -52,7 +51,7 @@ def to_geojson(points, filename):
                 'phone': point['phone']
             }
         })
-    with codecs.open(filename, 'w', 'utf-8') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write(json.dumps(output, indent=4, ensure_ascii=False))
 
 

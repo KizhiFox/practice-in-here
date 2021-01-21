@@ -1,7 +1,7 @@
 # cmd.py
 Скрипт для получения адресов офисов https://www.cmd-online.ru/
 
-Необходимые библиотеки: codecs (для сохранения в UTF-8), json, selenium, bs4
+Необходимые библиотеки: json, selenium, bs4
 
 Использование:
 

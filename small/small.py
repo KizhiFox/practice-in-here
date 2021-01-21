@@ -1,4 +1,3 @@
-import codecs
 import json
 import re
 from selenium import webdriver
@@ -19,8 +18,8 @@ def get_data(cities, driver_patch):
                                firefox_profile=firefox_profile)
     driver.get('https://small.kz/')
     points = []
-    for city in cities:
-        print(city)
+    for i, city in enumerate(cities, start=1):
+        print(f'{i}/{len(cities)}: {city}')
         # Нажатие на кнопки в меню выбора города
         elem = driver.find_element_by_xpath('//a[@href="#city-modal"]')
         elem.click()
@@ -60,7 +59,7 @@ def to_geojson(points, filename):
                 'opening_hours': point['working_hours']
             }
         })
-    with codecs.open(filename, 'w', 'utf-8') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write(json.dumps(output, indent=4, ensure_ascii=False))
 
 
@@ -68,5 +67,5 @@ if __name__ == '__main__':
     data = get_data(['Алматы', 'Нур-Султан', 'Аксу', 'Талдыкорган', 'Алмалыбак', 'Капчагай', 'Караганда',
                      'Кокшетау', 'Костанай', 'Кызылорда', 'Павлодар', 'Семей', 'Степногорск', 'Талгар',
                      'Тараз', 'Ашибулак', 'Экибастуз'],
-                    r'C:\Users\atrem\Documents\coding\heretech\scraping\geckodriver.exe')
+                    r'C:\Users\atrem\Documents\coding\heretech\practice-in-here\geckodriver.exe')
     to_geojson(data, 'points.geojson')

@@ -1,7 +1,8 @@
-import codecs
 import json
 from bs4 import BeautifulSoup
+from time import sleep
 from selenium import webdriver
+from selenium.common import exceptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
@@ -14,7 +15,7 @@ def get_data(cities_path, driver_patch):
     :param str driver_patch: путь к движку Gecko
     :return list: список магазинов
     """
-    with codecs.open(cities_path, 'r', 'utf-8') as f:
+    with open(cities_path, 'r', encoding='utf-8') as f:
         cities = list(filter(lambda x: x != '', f.read().split('\n')))
     print('Запуск движка...')
     # Отключение загрузки изображений и CSS
@@ -30,13 +31,22 @@ def get_data(cities_path, driver_patch):
     # Поиск по городам
     for i, city in enumerate(cities, start=1):
         print(f'{i}/{len(cities)}: {city}')
-        # Периодически не кликалось because another element <div class="loader is-active"> obscures it
-        WebDriverWait(driver, 20).until(ec.invisibility_of_element((By.CLASS_NAME, 'loader is-active')))
-        # Меню выбора города
-        driver.find_element_by_class_name('popup-modal-ajax').click()
+        while True:
+            try:
+                # Периодически не кликалось because another element <div class="loader is-active"> obscures it
+                elem = WebDriverWait(driver, 20).until(
+                    ec.visibility_of_element_located((By.CLASS_NAME, 'popup-modal-ajax')))
+                # Без понятия, почему, но WebDriverWait until element_to_be_clickable срабатывает не всегда,
+                # поэтому повторяем...
+                # Меню выбора города
+                elem.click()
+            except exceptions.ElementClickInterceptedException as e:
+                print(f'{str(e)}: повтор...')
+                sleep(0.5)
+                continue
+            break
         # Иногда возникало Unable to locate element: .city-picker__list
-        WebDriverWait(driver, 20).until(ec.visibility_of_element_located((By.CLASS_NAME, 'city-picker__list')))
-        elem = driver.find_element_by_class_name('city-picker__list')
+        elem = WebDriverWait(driver, 20).until(ec.visibility_of_element_located((By.CLASS_NAME, 'city-picker__list')))
         elem.find_element_by_xpath(f'//*[self::span|self::b][contains(text(), "{city}")]').click()
         # Цикл по офисам
         for e in driver.find_elements_by_class_name('office-list__item'):
@@ -54,8 +64,8 @@ def get_data(cities_path, driver_patch):
 
 def to_geojson(points, filename):
     """
-    Сохраняет список магазинов в формате GeoJSON
-    :param list points: список магазинов
+    Сохраняет список центров в формате GeoJSON
+    :param list points: список центров
     :param str filename: имя файла
     """
     output = {
@@ -74,10 +84,10 @@ def to_geojson(points, filename):
                 'opening_hours': point['working_hours']
             }
         })
-    with codecs.open(filename, 'w', 'utf-8') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write(json.dumps(output, indent=4, ensure_ascii=False))
 
 
 if __name__ == '__main__':
-    data = get_data('cities.txt', r'C:\Users\atrem\Documents\coding\heretech\scraping\geckodriver.exe')
+    data = get_data('cities.txt', r'C:\Users\atrem\Documents\coding\heretech\practice-in-here\geckodriver.exe')
     to_geojson(data, 'points.geojson')

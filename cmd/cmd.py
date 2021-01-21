@@ -1,5 +1,6 @@
 import json
 from bs4 import BeautifulSoup
+from pathlib import Path
 from time import sleep
 from selenium import webdriver
 from selenium.common import exceptions
@@ -8,12 +9,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
 
-def get_data(cities_path, driver_patch):
+def get_data(cities_path, driver_path):
     """
     Возвращает список центров по заданным параметрам
     :param str cities_path: имя файла с городами
-    :param str driver_patch: путь к движку Gecko
-    :return list: список магазинов
+    :param str_or_Path driver_path: путь к движку Gecko
+    :return list: список центров
     """
     with open(cities_path, 'r', encoding='utf-8') as f:
         cities = list(filter(lambda x: x != '', f.read().split('\n')))
@@ -22,7 +23,7 @@ def get_data(cities_path, driver_patch):
     firefox_profile = webdriver.FirefoxProfile()
     firefox_profile.set_preference('permissions.default.image', 2)
     firefox_profile.set_preference('permissions.default.stylesheet', 2)
-    driver = webdriver.Firefox(executable_path=driver_patch,
+    driver = webdriver.Firefox(executable_path=driver_path,
                                firefox_profile=firefox_profile)
     driver.get('https://www.cmd-online.ru/patsientam/gde-sdat-analizy/')
     # Принятие куки (надпись мешает кликать)
@@ -89,5 +90,5 @@ def to_geojson(points, filename):
 
 
 if __name__ == '__main__':
-    data = get_data('cities.txt', r'C:\Users\atrem\Documents\coding\heretech\practice-in-here\geckodriver.exe')
+    data = get_data('cities.txt', Path.cwd().parent / 'geckodriver.exe')
     to_geojson(data, 'points.geojson')

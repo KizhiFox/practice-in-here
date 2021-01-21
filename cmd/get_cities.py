@@ -1,7 +1,8 @@
 # Сохраняет список всех городов, доступных для выбора
+from pathlib import Path
 from selenium import webdriver
 
-driver_patch = r'C:\Users\atrem\Documents\coding\heretech\practice-in-here\geckodriver.exe'
+driver_patch = Path.cwd().parent / 'geckodriver.exe'
 
 firefox_profile = webdriver.FirefoxProfile()
 firefox_profile.set_preference('permissions.default.image', 2)

@@ -1,19 +1,17 @@
-# Сохраняет список всех городов, доступных для выбора
+# Сохраняет список ссылок на все города, доступные для выбора
 from pathlib import Path
 from selenium import webdriver
 
-driver_patch = Path.cwd().parent / 'geckodriver.exe'
+driver_path = Path.cwd().parent / 'geckodriver.exe'
 
 firefox_profile = webdriver.FirefoxProfile()
 firefox_profile.set_preference('permissions.default.image', 2)
-driver = webdriver.Firefox(executable_path=driver_patch,
+driver = webdriver.Firefox(executable_path=driver_path,
                            firefox_profile=firefox_profile)
-driver.get('https://www.cmd-online.ru/patsientam/gde-sdat-analizy/')
-elem = driver.find_element_by_xpath('//button[text()="Выбрать другой"]')
-elem.click()
-cities = []
-for e in driver.find_elements_by_class_name('city-picker__item-val'):
-    cities.append(e.text)
+driver.get('https://small.kz/')
+driver.find_element_by_xpath('//a[@href="#city-modal"]').click()
+elem = driver.find_element_by_id('city-modal')
+buttons = elem.find_elements_by_xpath('/html/body/div[2]/div/div/div/div/form')
 with open('cities.txt', 'w', encoding='utf-8') as f:
-    f.write('\n'.join(cities))
+    f.write('\n'.join(f'https://small.kz/ru/{x.get_attribute("id")}/shops' for x in buttons))
 driver.close()

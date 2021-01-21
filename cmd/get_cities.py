@@ -2,11 +2,11 @@
 from pathlib import Path
 from selenium import webdriver
 
-driver_patch = Path.cwd().parent / 'geckodriver.exe'
+driver_path = Path.cwd().parent / 'geckodriver.exe'
 
 firefox_profile = webdriver.FirefoxProfile()
 firefox_profile.set_preference('permissions.default.image', 2)
-driver = webdriver.Firefox(executable_path=driver_patch,
+driver = webdriver.Firefox(executable_path=driver_path,
                            firefox_profile=firefox_profile)
 driver.get('https://www.cmd-online.ru/patsientam/gde-sdat-analizy/')
 elem = driver.find_element_by_xpath('//button[text()="Выбрать другой"]')

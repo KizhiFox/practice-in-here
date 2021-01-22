@@ -1,0 +1,296 @@
+[
+    {
+        "city": "Шымкент",
+        "name": "Кафе №1",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/31735-kafe-1"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Jimmy poi",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/29997-jimmy-poi"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Шеш-Беш",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/16919-shesh-besh"
+    },
+    {
+        "city": "Шымкент",
+        "name": "RICCI",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/51791-ricci"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Silk way Lounge",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/27204-silk-way-lounge"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Гольфстрим",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/17356-golfstrim"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Rio Rio",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/31083-rio-rio"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Опера",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/4155-opera"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Queen Караоке House",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/50527-queen-karaoke-house"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Golf club",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/26482-golf-club"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Maestro",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/32011-maestro"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Риза",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/27136-riza"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Barbaros",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/17330-barbaros"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Barkhan",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/15548-barkhan"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Азия",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/51014-aziya"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Vatslav",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/25943-vatslav"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Тюльпан",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/90588-tyulpan"
+    },
+    {
+        "city": "Шымкент",
+        "name": "King House",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/16217-king-house"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Сауран",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/50348-sauran"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Grand Praga",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/50469-grand-praga"
+    },
+    {
+        "city": "Шымкент",
+        "name": "New time",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/29511-new-time"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Мадлен",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/25968-madlen"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Sary Arka",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/26494-sary-arka"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Терискей",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/30471-teriskey"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Solo",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/27221-solo"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Х - 13",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/30994-h-13"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Арбат",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/27183-arbat"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Карё",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/26714-karyo"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Spartak",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/16064-spartak"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Rixos Khadisha Shymkent",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/17049-rixos-khadisha-shymkent"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Qazaq City",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/88742-qazaq-city"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Vivaro",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/50799-vivaro"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Morena",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/30004-morena"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Ваниль",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/26680-vanil"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Запой",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/30106-zapoy"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Saka Grand",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/30183-saka-grand"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Golden Cavalli Club",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/27045-golden-cavalli-club"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Vinograd",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/32387-vinograd"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Асыл Маржан",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/31471-asyl-marzhan"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Chemodan",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/17048-chemodan"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Voice",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/29671-voice"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Jimi Hendrix",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/29306-jimi-hendrix"
+    },
+    {
+        "city": "Шымкент",
+        "name": "In100gram",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/86264-in100gram"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Золотой дракон",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/51391-zolotoy-drakon"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Rich Villa",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/93060-rich-villa"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Тулпар",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/93225-tulpar"
+    },
+    {
+        "city": "Шымкент",
+        "name": "The Loft",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/90179-the-loft"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Viva",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/51811-viva"
+    },
+    {
+        "city": "Шымкент",
+        "name": "Lucky life",
+        "category": "Караоке",
+        "link": "https://shym.restoran.kz/karaoke/30974-lucky-life"
+    }
+]

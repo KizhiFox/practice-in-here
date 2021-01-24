@@ -6,6 +6,12 @@ from aiohttp import ClientSession
 
 
 async def fetch_by_page(url, session):
+    """
+    Постраничный просмотр выбранного списка
+    :param dict url: словарь с параметрами: url, city, category
+    :param ClientSession session: сессия
+    :return list: список заведений
+    """
     async with session.get(url['url']) as response:
         soup = BeautifulSoup(await response.read(), features='html.parser')
     restaurants = []
@@ -16,7 +22,7 @@ async def fetch_by_page(url, session):
                 'city': url['city']['city'],
                 'name': card.find('a', {'class': 'link-inherit-color'}).text.strip(),
                 'category': url['category']['name'],
-                'url': f'{url["url"][:-1]}{card.find("a", {"class": "link-inherit-color"})["href"]}'
+                'url': f'{url["city"]["url"][:-1]}{card.find("a", {"class": "link-inherit-color"})["href"]}'
             })
         pagination = soup.find('ul', {'class': 'pagination'})
         if pagination is None:
@@ -31,6 +37,11 @@ async def fetch_by_page(url, session):
 
 
 async def fetch_all(url_list):
+    """
+    Получение заведений по заданным ссылкам
+    :param list url_list: список словарей с параметрами: url, city, category
+    :return list: список заведений
+    """
     tasks = []
     async with ClientSession() as session:
         for url in url_list:
@@ -42,6 +53,12 @@ async def fetch_all(url_list):
 
 
 def get_restaurants(cities, categories):
+    """
+    Получение списка заведений по заданным городам и категориям
+    :param list cities: города, список словарей с параметрами: city, url
+    :param list categories: категории, список словарей с параметрами: city, url
+    :return list: список заведений без геоданных
+    """
     url_list = []
     for city in cities:
         for category in categories:

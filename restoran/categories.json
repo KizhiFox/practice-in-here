@@ -1,6 +1,26 @@
 [
     {
+        "name": "Банкетные залы",
+        "url": "/banquet"
+    },
+    {
+        "name": "Рестораны",
+        "url": "/restaurant"
+    },
+    {
         "name": "Караоке",
-        "link": "/karaoke"
+        "url": "/karaoke"
+    },
+    {
+        "name": "Пабы, бары",
+        "url": "/pub"
+    },
+    {
+        "name": "Кафе",
+        "url": "/cafe"
+    },
+    {
+        "name": "Кофейни",
+        "url": "/coffee"
     }
 ]

@@ -1,6 +1,90 @@
 [
     {
+        "city": "Алматы",
+        "url": "https://almaty.restoran.kz/"
+    },
+    {
+        "city": "Нур-Султан (Астана)",
+        "url": "https://astana.restoran.kz/"
+    },
+    {
+        "city": "Караганда",
+        "url": "https://karaganda.restoran.kz/"
+    },
+    {
         "city": "Шымкент",
-        "link": "https://shym.restoran.kz/"
+        "url": "https://shym.restoran.kz/"
+    },
+    {
+        "city": "Усть-Каменогорск",
+        "url": "https://oskemen.restoran.kz/"
+    },
+    {
+        "city": "Актау",
+        "url": "https://aktau.restoran.kz/"
+    },
+    {
+        "city": "Актобе",
+        "url": "https://aktobe.restoran.kz/"
+    },
+    {
+        "city": "Атырау",
+        "url": "https://atyrau.restoran.kz/"
+    },
+    {
+        "city": "Боровое",
+        "url": "https://borovoe.restoran.kz/"
+    },
+    {
+        "city": "Капчагай",
+        "url": "https://kapchagai.restoran.kz/"
+    },
+    {
+        "city": "Кокшетау",
+        "url": "https://kokshetau.restoran.kz/"
+    },
+    {
+        "city": "Костанай",
+        "url": "https://kostanay.restoran.kz/"
+    },
+    {
+        "city": "Кызылорда",
+        "url": "https://kyzylorda.restoran.kz/"
+    },
+    {
+        "city": "Павлодар",
+        "url": "https://pavlodar.restoran.kz/"
+    },
+    {
+        "city": "Петропавловск",
+        "url": "https://petropavlovsk.restoran.kz/"
+    },
+    {
+        "city": "Семей",
+        "url": "https://semei.restoran.kz/"
+    },
+    {
+        "city": "Талдыкорган",
+        "url": "https://taldyk.restoran.kz/"
+    },
+    {
+        "city": "Тараз",
+        "url": "https://taraz.restoran.kz/"
+    },
+    {
+        "city": "Темиртау",
+        "url": "https://temirtau.restoran.kz/"
+    },
+    {
+        "city": "Уральск",
+        "url": "https://uralsk.restoran.kz/"
+    },
+    {
+        "city": "Бишкек",
+        "url": "https://bishkek.restoran.kg/"
+    },
+    {
+        "city": "Ош",
+        "url": "https://osh.restoran.kg/"
     }
 ]

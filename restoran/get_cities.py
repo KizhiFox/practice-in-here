@@ -14,7 +14,7 @@ def get_cities(code):
     dropdown = soup.find('div', {'class': 'header-base__city-select-wrap'})
     all_links = dropdown.find_all('a', {'class': 'dropdown-item'})
     cities_links = list(filter(lambda x: not x.has_attr('rel'), all_links))
-    cities = [{'city': x.find('span').text, 'link': x['href']} for x in cities_links]
+    cities = [{'city': x.find('span').text, 'url': x['href']} for x in cities_links]
     return cities
 
 

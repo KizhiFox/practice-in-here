@@ -12,7 +12,7 @@ def get_categories():
     soup = BeautifulSoup(page.text, features='html.parser')
     selector = soup.find('div', {'class': 'sausage-nav sausage-nav_buttons_raised header-nav__sausage-nav'})
     links = selector.find_all('a')
-    types = [{'name': x.find('span').text, 'link': x['href']} for x in links]
+    types = [{'name': x.find('span').text, 'url': x['href']} for x in links]
     return types
 
 

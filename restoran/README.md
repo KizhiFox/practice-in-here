@@ -1,6 +1,10 @@
 # restoran
 Скрипт для получения адресов заведений restoran.kz и restoran.kg
 
+**Upd.: добавил скрипт restoran.py, который объединяет все функции.**
+
+---
+
 Необходимые библиотеки: asyncio, aiohttp, bs4, json, requests, timeit
 
 Использование:

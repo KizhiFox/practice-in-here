@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 from aiohttp import ClientSession
 
 
-
 async def fetch_geo(rest, session):
     """
     Получение геоданных со страницы заведений

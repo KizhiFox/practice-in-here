@@ -4,6 +4,7 @@ import requests
 import timeit
 from bs4 import BeautifulSoup
 from aiohttp import ClientSession
+#import random
 
 
 def get_cities(code):
@@ -41,8 +42,13 @@ async def fetch_by_page(url, session):
     :param ClientSession session: сессия
     :return list: список заведений
     """
-    async with session.get(url['url']) as response:
-        soup = BeautifulSoup(await response.read(), features='html.parser')
+    try:
+        async with session.get(url['url']) as response:
+            soup = BeautifulSoup(await response.read(), features='html.parser')
+            #if random.randint(1, 50) == 1:
+            #    raise Exception
+    except:
+        return [{'TimeoutError': True, 'city': url['city'], 'category': url['category']}]
     restaurants = []
     while True:
         cards = soup.find_all('div', {'class': 'place-list-card'})
@@ -60,8 +66,11 @@ async def fetch_by_page(url, session):
         links_next = list(filter(lambda x: x.get('rel')[0] == 'next', links_rel))
         if len(links_next) == 0:
             break
-        async with session.get(f'{url["city"]["url"][:-1]}{links_next[0]["href"]}') as response:
-            soup = BeautifulSoup(await response.read(), features='html.parser')
+        try:
+            async with session.get(f'{url["city"]["url"][:-1]}{links_next[0]["href"]}') as response:
+                soup = BeautifulSoup(await response.read(), features='html.parser')
+        except:
+            return [{'TimeoutError': True, 'city': url['city'], 'category': url['category']}]
     return restaurants
 
 
@@ -72,8 +81,14 @@ async def fetch_geo(rest, session):
     :param ClientSession session: сессия
     :return dict: заведение с геоданными
     """
-    async with session.get(rest['url']) as response:
-        soup = BeautifulSoup(await response.read(), features='html.parser')
+    try:
+        async with session.get(rest['url']) as response:
+            soup = BeautifulSoup(await response.read(), features='html.parser')
+        #if random.randint(1, 100) == 1:
+        #    raise Exception
+    except:
+        rest['TimeoutError'] = True
+        return rest
     try:
         rest['address'] = f'{rest["city"]}, {soup.find("div", {"class": "text-overflow mt-2"}).getText()}'
     except AttributeError:
@@ -121,7 +136,16 @@ def get_restaurants(cities, categories):
     loop = asyncio.get_event_loop()
     future = asyncio.ensure_future(fetch_all(url_list, fetch_by_page))
     results = loop.run_until_complete(future)
-    return [item for sublist in results for item in sublist]
+    results = [item for sublist in results for item in sublist]
+    correct = []
+    timed_out = []
+    for res in results:
+        if 'TimeoutError' in res.keys():
+            if {'city': res['city'], 'category': res['category']} not in timed_out:
+                timed_out.append({'city': res['city'], 'category': res['category']})
+        else:
+            correct.append(res)
+    return correct, timed_out
 
 
 def add_geo(restaurants):
@@ -135,12 +159,16 @@ def add_geo(restaurants):
     restaurants = loop.run_until_complete(future)
     valid = []
     not_valid = []
+    timed_out = []
     for rest in restaurants:
-        if rest['address'] is None or rest['longitude'] is None:
-            not_valid.append(f'{rest["url"]}|{rest["address"]}|{rest["longitude"]},{rest["latitude"]}')
+        if 'TimeoutError' in rest.keys():
+            timed_out.append({'city': rest['city'], 'name': rest['name'], 'category': rest['category'], 'url': rest['url']})
         else:
-            valid.append(rest)
-    return valid, not_valid
+            if rest['address'] is None or rest['longitude'] is None:
+                not_valid.append(f'{rest["url"]}|{rest["address"]}|{rest["longitude"]},{rest["latitude"]}')
+            else:
+                valid.append(rest)
+    return valid, not_valid, timed_out
 
 
 def to_geojson(points, filename):
@@ -178,16 +206,28 @@ if __name__ == '__main__':
     cities += get_cities('kg')
     print('Получение типов заведений...')
     categories = get_categories()
+
     print('Получение списка заведений...')
     start = timeit.default_timer()
-    restaurants = get_restaurants(cities, categories)
+    restaurants, timed_out = get_restaurants(cities, categories)
+    while len(timed_out) != 0:
+        print(f'TimeoutError для {len(timed_out)} запросов, повтор...')
+        correct, timed_out = get_restaurants([x['city'] for x in timed_out], [x['category'] for x in timed_out])
+        restaurants += correct
     stop = timeit.default_timer()
     print(f'Получено {len(restaurants)} заведений за {stop - start} сек.')
+
     print('Получение геоданных...')
     start = timeit.default_timer()
-    valid, not_valid = add_geo(restaurants)
+    valid, not_valid, timed_out = add_geo(restaurants)
+    while len(timed_out) != 0:
+        print(f'TimeoutError для {len(timed_out)} запросов, повтор...')
+        correct, not_correct, timed_out = add_geo(timed_out)
+        valid += correct
+        not_valid += f'\n{not_correct}'
     stop = timeit.default_timer()
     print(f'Валидные / не валидные записи: {len(valid)} / {len(not_valid)}')
+
     print(f'Сохранение результатов...')
     to_geojson(valid, 'points.geojson')
     with open('not_valid.txt', 'w', encoding='utf-8') as f:

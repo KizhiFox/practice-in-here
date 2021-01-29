@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "ADDRESS": "Керчь, ул. К. Маркса, д. 16Б", "ORIGINAL_LAT": 45.358385074554185, "ORIGINAL_LNG": 36.46984, "LABEL": null, "COUNTRY": null, "ADMIN3": null, "CITY": null, "POSTALCODE": null, "LAT": null, "LNG": null, "ACCESS_LAT": null, "ACCESS_LNG": null, "RESULT_TYPE": null, "HOUSE_NUMBER_TYPE": null, "QUERY_SCORE": null, "CITY_SCORE": null, "STREET_SCORE": null, "HOUSE_NUMBER_SCORE": null }, "geometry": { "type": "Point", "coordinates": [ 36.469839999999898, 45.358385074554185 ] } },
+{ "type": "Feature", "properties": { "ADDRESS": "Одинцово, Дачный поселок Лесной Городок, ул. Фасадная, д. 2, корп. 2", "ORIGINAL_LAT": 55.634496, "ORIGINAL_LNG": 37.215594, "LABEL": null, "COUNTRY": null, "ADMIN3": null, "CITY": null, "POSTALCODE": null, "LAT": null, "LNG": null, "ACCESS_LAT": null, "ACCESS_LNG": null, "RESULT_TYPE": null, "HOUSE_NUMBER_TYPE": null, "QUERY_SCORE": null, "CITY_SCORE": null, "STREET_SCORE": null, "HOUSE_NUMBER_SCORE": null }, "geometry": { "type": "Point", "coordinates": [ 37.215594, 55.634496 ] } }
+]
+}

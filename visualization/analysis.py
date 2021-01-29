@@ -98,7 +98,7 @@ def df_to_geojson (result_filename, data_frame, lat_col, lng_col):
 if __name__ == '__main__':
     
     # Prepare data for analysis
-    data_for_analysis = prepare_data('data.csv')
+    data_for_analysis = prepare_data('points.csv')
 
     # Create error line between points
     create_error_line(data_for_analysis, 'ORIGINAL_LAT', 'ORIGINAL_LNG', 'LAT', 'LNG', 'distances')
